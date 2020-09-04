@@ -1,0 +1,126 @@
+body {
+   height: 75vh;
+   align-self: center;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+h2 {
+   font-weight: 400;
+}
+form {
+   width: 305px;
+   height: 310px;
+   display: grid;
+   grid-template-rows: 40px 36px 31px 36px 31px 25px 31px 31px;
+   grid-template-columns: 305px;
+   justify-content: center;
+   margin: 150px auto 0px;
+   padding: 20px;
+   border: 1px solid #e0e0e0;
+   border-radius: 5px;
+}
+label {
+   display: contents;
+}
+input {
+   border-radius: 3px;
+   border: 1px solid #a7a7a7;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 13.7px;
+}
+button {
+   border-radius: 3px;
+   border-color: #adb1b8 #a2a6ac #8d9096;
+   padding: 6px 0px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 13.7px;
+   border-style: solid;
+   border-width: 1px;
+   outline: none;
+   cursor: pointer;
+}
+button:hover {
+   border-color: #a2a6ac #979aa1 #82858a;
+   background: #e7e9ec;
+}
+.form h2 {
+   display: flex;
+   align-items: center;
+}
+.form__label {
+   align-self: end;
+   margin-bottom: 4px;
+   font-weight: 700;
+   font-size: 14px;
+}
+.form__submit {
+   margin-top: 5px;
+   height: 100%;
+   cursor: pointer;
+   background: linear-gradient(180deg, #8affad 0%, #43e473 100%);
+   border: 1px solid #17ac44;
+}
+.form__submit:hover {
+   background: linear-gradient(180deg, #68ff96 0%, #29e261 100%);
+}
+.error__outline {
+   color: #758efc;
+   font-size: 15px;
+   margin-right: 3px;
+}
+.error__icon {
+   color: #e20a4b;
+   font-size: 15px;
+   margin-right: 3px;
+}
+.alert__content{
+   display: flex;
+   align-items: center;
+}
+.notice__content {
+   margin: 25px 0px;
+}
+.messagealert__content {
+   display: none;
+   align-items: center;
+   color: #e20a4b;
+}
+
+.divider {
+   width: 320px;
+   margin: 10px auto 0px;
+   text-align: center;
+   position: relative;
+   top: 2px;
+}
+.a-divider h5 {
+   line-height: 1;
+   font-size: 12px;
+   color: #767676;
+   font-weight: 400;
+   z-index: 2;
+   position: relative;
+   display: inline-block;
+   background-color: #ffffff;
+   padding: 0px 8px 0px 7px;
+}
+.a-divider-break::after {
+   content: "";
+   width: 100%;
+   background-color: transparent;
+   display: block;
+   height: 1px;
+   border-top: 1px solid #e7e7e7;
+   position: absolute;
+   top: 50%;
+   margin-top: -1px;
+   z-index: 1;
+}
+.button__create {
+   width: 348px;
+   margin: 0px auto;
+   position: relative;
+}
+.button__create button {
+   width: 100%;
+   box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+}

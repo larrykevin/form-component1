@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form-Component#1</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="css/main.css" />
+   </head>
+   <body>
+      <form action="" class="form">
+         <h2>Sign-in</h2>
+         <label for="femail">
+            <span class="form__label">Email</span>
+            <input type="email" name="email" id="femail" autocomplete="email" required />
+            <small class="messagealert__content" id="messagealert__content"><span class="material-icons error__icon">error</span>Ingresa tu email correctamente</small>
+         </label>
+         <label for="fpassword">
+            <span class="form__label">Contraseña</span>
+            <input type="password" name="password" id="fpassword" autocomplete="current-password" required />
+            <small class="alert__content" id="alert__content"><span class="material-icons error__outline" id="error__icon">error_outline</span>Las contraseñas deben tener al menos 6 caracteres.</small>
+         </label>
+         <input type="submit" class="form__submit" id="buttonSubmit"/>
+         <span class="notice__content">
+            <small>Al continuar, acepta las Condiciones de uso y el Aviso de privacidad de Bambazon.</small>
+         </span>
+      </form>
+      <section class="divider">
+         <span class="a-divider a-divider-break">
+            <h5>¿Nuevo en la plataforma?</h5>
+         </span>
+      </section>
+      <section class="button__create">
+         <a href="#">
+            <button>Crea tu cuenta</button>
+         </a>
+      </section>
+
+      <script src="js/index.js"></script>
+   </body>
+</html>
